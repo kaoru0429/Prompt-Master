@@ -60,8 +60,8 @@ with {{WordCount#1000}} words.
 
 ```bash
 # 克隆專案
-git clone https://github.com/kaoru0429/prompt-library-manager.git
-cd prompt-library-manager
+git clone https://github.com/kaoru0429/Prompt-Master.git
+cd Prompt-Master
 
 # 安裝依賴
 npm install

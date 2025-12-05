@@ -11,7 +11,12 @@
       "Bash(claude mcp add gemini-cli \"C:\\Users\\yusei\\Projects\\gemini-cli-mcp-server\\.venv\\Scripts\\python.exe\" \"C:\\Users\\yusei\\Projects\\gemini-cli-mcp-server\\mcp_server.py\" -s user -e GEMINI_API_KEY=\"AIzaSyAb8RN6JUuqlMuCYTkkPhawxGpqkrChqdU9VOOZP2VzuwufcvBg\" -e GEMINI_DEFAULT_MODEL=\"gemini-2.5-pro\" -e GEMINI_FALLBACK_MODEL=\"gemini-2.5-flash\" -e GEMINI_ENABLE_FALLBACK=\"true\" -e GEMINI_VERIFY_LIMIT=\"1000000\" -e GEMINI_SUMMARIZE_FILES_LIMIT=\"1000000\")",
       "Bash(tree:*)",
       "mcp__zen__planner",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []

@@ -2,8 +2,10 @@
 
 > 專案文檔導航中心
 
+**GitHub Repository**: [kaoru0429/Prompt-Master](https://github.com/kaoru0429/Prompt-Master)
 **更新日期**: 2025-12-05
 **Wiki 版本**: v1.0
+**專案狀態**: Phase 1 開發中
 
 ---
 
@@ -13,6 +15,7 @@
 
 | 文檔 | 說明 | 狀態 |
 |------|------|------|
+| [Repository 資訊](../docs/repository-info.md) | GitHub Repository 結構與管理 | ✅ 完成 |
 | [函式參考](function-reference.md) | 完整的函式文檔與 API | 🚧 建構中 |
 | [API 參考](api-reference.md) | REST API 端點說明 | 🚧 建構中 |
 | [版本對比](version-comparison.md) | 版本更新與變更記錄 | 📝 規劃中 |
@@ -213,15 +216,17 @@ gemini -p "@src/ 檢查 API 金鑰儲存的安全性實作"
 ### 取得協助
 
 - 📖 查閱 [完整概念文檔](../docs/prompt-library-concept.md)
-- 🐛 回報 [Bug](https://github.com/kaoru0429/prompt-library-manager/issues)
-- 💡 提出 [功能建議](https://github.com/kaoru0429/prompt-library-manager/discussions)
+- 📋 查看 [Repository 資訊](../docs/repository-info.md)
+- 🐛 回報 [Bug](https://github.com/kaoru0429/Prompt-Master/issues)
+- 💡 提出 [功能建議](https://github.com/kaoru0429/Prompt-Master/discussions)
 
 ### 參與貢獻
 
-- 🍴 Fork 專案並提交 PR
+- 🍴 [Fork 專案](https://github.com/kaoru0429/Prompt-Master/fork)並提交 PR
 - 📝 改善文檔
 - ✅ 撰寫測試
 - 🎨 設計 UI/UX
+- 📋 查看 [貢獻指南](../docs/repository-info.md#pull-request-流程)
 
 ---
 

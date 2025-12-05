@@ -3,7 +3,7 @@
 name: Prompt Library Manager
 description: 訂閱式、智慧化的 AI Prompt 管理與執行平台
 language: typescript
-repository: https://github.com/kaoru0429/prompt-library-manager
+repository: https://github.com/kaoru0429/Prompt-Master
 ---
 
 ## 專案概述
