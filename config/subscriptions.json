@@ -1,0 +1,78 @@
+{
+  "$schema": "./subscriptions.schema.json",
+  "version": "1.0",
+  "subscriptions": [
+    {
+      "id": "awesome-chatgpt-prompts",
+      "name": "Awesome ChatGPT Prompts",
+      "description": "GitHub 上最知名的 Prompt 集合，涵蓋寫作、編程、角色扮演",
+      "source": "https://github.com/f/awesome-chatgpt-prompts",
+      "type": "github",
+      "format": "readme",
+      "branch": "main",
+      "file_path": "README.md",
+      "auto_update": true,
+      "update_frequency": "weekly",
+      "last_sync": null,
+      "hash": null,
+      "enabled": true,
+      "tags": ["general", "productivity", "coding", "writing"]
+    },
+    {
+      "id": "midjourney-styles-library",
+      "name": "Midjourney Styles Library",
+      "description": "收錄各類藝術風格、光影、鏡頭參數的 Prompt 字典",
+      "source": "https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference",
+      "type": "github",
+      "format": "readme",
+      "branch": "main",
+      "file_path": "README.md",
+      "auto_update": true,
+      "update_frequency": "monthly",
+      "last_sync": null,
+      "hash": null,
+      "enabled": true,
+      "tags": ["image-generation", "midjourney", "art", "styles"]
+    },
+    {
+      "id": "mr-ranedeer-ai-tutor",
+      "name": "Mr. Ranedeer AI Tutor",
+      "description": "強大的個人導師 Prompt，支援深度客製化教學風格",
+      "source": "https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor",
+      "type": "github",
+      "format": "json",
+      "branch": "main",
+      "file_path": "Mr_Ranedeer.json",
+      "auto_update": true,
+      "update_frequency": "monthly",
+      "last_sync": null,
+      "hash": null,
+      "enabled": true,
+      "tags": ["education", "tutoring", "learning"]
+    },
+    {
+      "id": "developer-codex",
+      "name": "Developer's Codex",
+      "description": "專為工程師設計的 Code Review、Refactor 與 Bug Fix 專用模組",
+      "source": "https://github.com/devcodex/prompts",
+      "type": "github",
+      "format": "json",
+      "branch": "main",
+      "file_path": "prompts.json",
+      "auto_update": true,
+      "update_frequency": "weekly",
+      "last_sync": null,
+      "hash": null,
+      "enabled": false,
+      "tags": ["coding", "development", "debugging", "refactoring"]
+    }
+  ],
+  "settings": {
+    "auto_check_updates": true,
+    "check_interval_hours": 24,
+    "max_concurrent_syncs": 3,
+    "retry_on_failure": true,
+    "max_retries": 3,
+    "backup_before_update": true
+  }
+}
